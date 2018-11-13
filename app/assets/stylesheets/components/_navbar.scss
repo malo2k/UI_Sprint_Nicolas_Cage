@@ -1,0 +1,23 @@
+.navbar {
+		display: flex;
+		padding: 20px 20px;
+		background: linear-gradient(#a02dfd, #fd532d);
+		justify-content: space-between;
+		height: 40px; }
+
+
+.navbar-logo { 
+			display: flex;
+			align-content: flex-start;
+			width: 40px;
+			height: 40px;
+			border: 2px solid black; }
+
+.navbar-right {
+				display: block; 
+				justify-content: space-between;
+				align-content: flex-end; 
+				margin-right: 100px; }
+
+.navbar a { text-decoration: none;
+	color: white; }
